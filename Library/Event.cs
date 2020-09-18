@@ -1,4 +1,8 @@
 namespace LSPLibrary
+/*
+No implementa polimorfismo porque tiene entrada unica y la clase se encarga en realizar la operacion
+No implementa el LSP porque no utiliza polimorfismo
+*/
 {
     public class Event
     {

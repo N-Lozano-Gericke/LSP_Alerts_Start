@@ -1,5 +1,8 @@
 using System;
-
+/*
+No implementa polimorfismo porque tiene entrada unica y la clase se encarga en realizar la operacion
+No implementa el LSP porque no utiliza polimorfismo
+*/
 namespace LSPLibrary
 {
     public class Alert
