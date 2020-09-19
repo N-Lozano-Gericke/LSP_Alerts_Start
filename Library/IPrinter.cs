@@ -4,6 +4,8 @@ namespace LSPLibrary
 {
     public interface IPrinter
     {
-       void Send();
+        string EventType { get;}
+        string EventName { get;}
+        void Send();
     }
 }

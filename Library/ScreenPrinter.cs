@@ -4,9 +4,27 @@ namespace LSPLibrary
 {
     public class ScreenPrinter : IPrinter
     {
-        public void Send(string type, string text)
+        private string eventtype;
+        private string eventname;
+        public string EventType 
+        { 
+            get
+            {
+                return this.eventtype;
+            } 
+            
+        }
+        public string EventName 
+        { 
+            get
+            {
+                return this.eventname;
+            } 
+            
+        }
+        public void Send()
         {
-            Console.WriteLine(text);
+            Console.WriteLine(this.EventName);
         }
     }
 }
